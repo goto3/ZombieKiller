@@ -12,7 +12,7 @@ class Hud extends StaticLayer {
 
 	var maxHealth:Float = GlobalGameData.initialHealth;
 
-	public var activeSlot:Int;
+	public var activeSlot:Null<Int>;
 
 	public var slotSprites:Map<Int, Sprite> = new Map<Int, Sprite>();
 	public var activeSlotSprites:Map<Int, Sprite> = new Map<Int, Sprite>();
